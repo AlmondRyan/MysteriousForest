@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mysteriousforest",
+  "version": "${version}",
+  "name": "MysteriousForest",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/A/MysteriousForest"
+  },
+  "license": "MIT",
+  "icon": "assets/mysteriousforest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.nvkryk.mysteriousforest.client.MysteriousForestClient"
+    ],
+    "main": [
+      "net.nvkryk.mysteriousforest.MysteriousForest"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

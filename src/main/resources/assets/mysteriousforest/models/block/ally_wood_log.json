@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysteriousforest:blocks/ally_wood_log_top",
+    "up": "mysteriousforest:blocks/ally_wood_log_top",
+    "north": "mysteriousforest:blocks/ally_wood_log",
+    "east": "mysteriousforest:blocks/ally_wood_log",
+    "south": "mysteriousforest:blocks/ally_wood_log",
+    "west": "mysteriousforest:blocks/ally_wood_log",
+    "particle": "mysteriousforest:blocks/ally_wood_log_top"
+  }
+}
